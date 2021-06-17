@@ -1,0 +1,1 @@
+"use strict";module.exports=(e,t)=>(Object.entries(t).forEach(([t,r])=>{e.style.setProperty("--"+t,r)}),{update(r){Object.entries(r).forEach(([r,s])=>{e.style.setProperty("--"+r,s),delete t[r]}),Object.keys(t).forEach(t=>e.style.removeProperty("--"+t)),t=r}});
